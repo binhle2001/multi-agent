@@ -1,0 +1,17 @@
+.venv
+.env
+test_gemini.py
+test.py
+test2.py
+logs
+planing
+test_gemini.py
+test.py
+test2.py
+test3.py
+test4.py
+test5.py
+test6.py
+test7.py
+__pycache__
+*/__pycache__/*
