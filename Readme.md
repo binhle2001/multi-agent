@@ -50,8 +50,8 @@ Body (raw JSON):
 URL: http://localhost:8884/agent_health_check/api/v1/communication
 Method: GET
 Body: None (Empty JSON)
-{}
 ```
+#### Note: Read the file `book.xlsx` for more information on how to ask questions
 # Workflow
 ![](image.png)
 ## 1. Giải thích về luồng hoạt động
