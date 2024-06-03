@@ -1,24 +1,37 @@
 # RUN CODE
-## 1. Build virtual environment
+## 1. Clone this repository
+```
+git clone https://github.com/binhle2001/multi-agent.git
+cd multi-agent
+```
+
+## 2. Build virtual environment
 ```
 git clone 
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-## 2. Run HRM Agent
+## 3. Setup database
+```
+docker compose up -d #create DB
+python seed/chatbot_work_scheduler.py
+python seed/chatbot_machine.py
+python seed/chatbot_material.py
+```
+## 4. Run HRM Agent
 ```
 python agent_hrm.py
 ```
-## 3. Run Inventory Agent
+## 5. Run Inventory Agent
 ```
 python agent_inventory.py
 ```
-## 4. Run Global Agent
+## 6. Run Global Agent
 ```
 python agent_global.py
 ```
-## 5. Run Health Check Agent
+## 7. Run Health Check Agent
 ```
 python agent_health_check.py
 ```
