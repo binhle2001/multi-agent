@@ -35,6 +35,23 @@ python agent_global.py
 ```
 python agent_health_check.py
 ```
+8. Test API using Postman and follow community logs
+API POST GLOBAL AGENT
+```
+URL: http://localhost:8883/agent_global/api/v1/chat
+Method: POST
+Body (raw JSON):
+{
+  "content": ""
+}
+```
+API GET COMMUNITY LOGS
+```
+URL: http://localhost:8884/agent_health_check/api/v1/communication
+Method: GET
+Body: None (Empty JSON)
+{}
+```
 # Workflow
 ![](image.png)
 ## 1. Giải thích về luồng hoạt động
