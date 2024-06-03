@@ -4,7 +4,7 @@ import os
 from sqlalchemy import create_engine, URL
 from sqlalchemy.orm import sessionmaker
 # Định nghĩa các tham số kết nối
-host = "192.168.0.107"
+host = "localhost"
 database = "multi_agent"
 user = "root"
 password = "password"
