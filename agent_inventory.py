@@ -11,7 +11,6 @@ import os
 from helpers.common import get_datetime_now, get_env_var
 import json
 import logging
-from pymongo import MongoClient
 from datetime import datetime
 from helpers.db_config import get_db, log_db
 from helpers.schema_db import ChatbotMachine, ChatbotMaterial
